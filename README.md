@@ -32,6 +32,7 @@ Source codes implementation of papers:
 <a name="antifraud-usage"></a>
 ## 🚀 Usage
 
+<a name="antifraud-data-processing"></a>
 ### 📥 Data processing
 
 1. Run `unzip /data/Amazon.zip` and `unzip /data/YelpChi.zip` to unzip the datasets; 
@@ -40,6 +41,7 @@ Source codes implementation of papers:
 
 > `Grad` is run on the DGL's `Amazon` and `Yelp` dataset.
 
+<a name="antifraud-training"></a>
 ### 🧠 Training & Evalutaion
 <!-- 
 To use fraud detection baselines including GBDT, LSTM, etc., simply run
@@ -84,6 +86,7 @@ To run the `Grad`, please read the [README of Grad](./methods/grad/README.md), i
 
 
 
+<a name="antifraud-data-description"></a>
 ### 🗃️ Data Description
 
 There are three datasets, YelpChi, Amazon and S-FFSD, utilized for model experiments in this repository.
@@ -108,6 +111,7 @@ S-FFSD is a simulated & small version of finacial fraud semi-supervised dataset.
 
 > We are looking for interesting public datasets! If you have any suggestions, please let us know!
 
+<a name="antifraud-test-result"></a>
 ## 📊 Test Result
 The performance of five models tested on three datasets are listed as follows:
 | |YelpChi| | |Amazon| | |S-FFSD| | |
@@ -125,6 +129,7 @@ The performance of five models tested on three datasets are listed as follows:
 >
 > `HOGRL` and `Grad` are presently not applicable to S-FFSD dataset.
 
+<a name="antifraud-repo-structure"></a>
 ## 🗂️ Repo Structure
 The repository is organized as follows:
 - `models/`: the pre-trained models for each method. The readers could either train the models by themselves or directly use our pre-trained models;
@@ -135,7 +140,7 @@ The repository is organized as follows:
 - `main.py`: organize all models;
 - `requirements.txt`: package dependencies;
 
-    
+<a name="antifraud-requirements"></a>    
 ## 📦 Requirements
 ```
 python           3.7
@@ -148,11 +153,13 @@ torch            1.12.1+cu113
 dgl-cu113        0.8.1
 ```
 
+<a name="antifraud-contributors"></a>
 ### 🤝 Contributors :
 <a href="https://github.com/AI4Risk/antifraud/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AI4Risk/antifraud" />
 </a>
 
+<a name="antifraud-citing"></a>
 ### 📚 Citing
 
 If you find *Antifraud* is useful for your research, please consider citing the following papers:
