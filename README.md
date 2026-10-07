@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.7 or later">
 </p>
 A Financial Fraud Detection Framework.
+
 <p align="center">
   <a href="#antifraud-usage">🚀 Usage</a> ·
   <a href="#antifraud-data-processing">📥 Data processing</a> ·
