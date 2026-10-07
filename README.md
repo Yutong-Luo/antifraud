@@ -29,7 +29,7 @@ Source codes implementation of papers:
 - `Grad`: Grad: Guided Relation Diffusion Generation for Graph Augmentation in Graph Fraud Detection in [WWW 2025](https://dl.acm.org/doi/abs/10.1145/3696410.3714520).
 
 
-
+<a name="antifraud-usage"></a>
 ## 🚀 Usage
 
 ### 📥 Data processing
