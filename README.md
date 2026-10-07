@@ -6,6 +6,14 @@
   <img src="https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.7 or later">
 </p>
 A Financial Fraud Detection Framework.
+<p align="center">
+  <a href="#usage">🚀 Usage</a> ·
+  <a href="#data-description">🗃️ Data Description</a> ·
+  <a href="#test-result">📊 Test Result</a> ·
+  <a href="#repo-structure">🗂️ Repo Structure</a> ·
+  <a href="#requirements">📦 Requirements</a> ·
+  <a href="#citing">📚 Citing</a>
+</p>
 
 Source codes implementation of papers:
 - `MCNN`: Credit card fraud detection using convolutional neural networks, published in [ICONIP 2016](https://link.springer.com/chapter/10.1007/978-3-319-46675-0_53). 
