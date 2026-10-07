@@ -1,5 +1,10 @@
 # AntiFraud
-
+<p align="center">
+  <a href="https://github.com/AI4Risk/antifraud/stargazers"><img src="https://img.shields.io/github/stars/AI4Risk/antifraud?style=flat-square" alt="GitHub stars"></a>
+  <a href="https://github.com/AI4Risk/antifraud/network/members"><img src="https://img.shields.io/github/forks/AI4Risk/antifraud?style=flat-square" alt="GitHub forks"></a>
+  <a href="https://github.com/AI4Risk/antifraud/blob/main/LICENSE"><img src="https://img.shields.io/github/license/AI4Risk/antifraud?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/badge/Python-3.7%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.7 or later">
+</p>
 A Financial Fraud Detection Framework.
 
 Source codes implementation of papers:
@@ -13,9 +18,9 @@ Source codes implementation of papers:
 
 
 
-## Usage
+## 🚀 Usage
 
-### Data processing
+### 📥 Data processing
 
 1. Run `unzip /data/Amazon.zip` and `unzip /data/YelpChi.zip` to unzip the datasets; 
 2. Run `python feature_engineering/data_process.py` to pre-process all datasets needed in this repo.
@@ -23,7 +28,7 @@ Source codes implementation of papers:
 
 > `Grad` is run on the DGL's `Amazon` and `Yelp` dataset.
 
-### Training & Evalutaion
+### 🧠 Training & Evalutaion
 <!-- 
 To use fraud detection baselines including GBDT, LSTM, etc., simply run
 
@@ -67,7 +72,7 @@ To run the `Grad`, please read the [README of Grad](./methods/grad/README.md), i
 
 
 
-### Data Description
+### 🗃️ Data Description
 
 There are three datasets, YelpChi, Amazon and S-FFSD, utilized for model experiments in this repository.
 
@@ -91,7 +96,7 @@ S-FFSD is a simulated & small version of finacial fraud semi-supervised dataset.
 
 > We are looking for interesting public datasets! If you have any suggestions, please let us know!
 
-## Test Result
+## 📊 Test Result
 The performance of five models tested on three datasets are listed as follows:
 | |YelpChi| | |Amazon| | |S-FFSD| | |
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
@@ -108,7 +113,7 @@ The performance of five models tested on three datasets are listed as follows:
 >
 > `HOGRL` and `Grad` are presently not applicable to S-FFSD dataset.
 
-## Repo Structure
+## 🗂️ Repo Structure
 The repository is organized as follows:
 - `models/`: the pre-trained models for each method. The readers could either train the models by themselves or directly use our pre-trained models;
 - `data/`: dataset files;
@@ -119,7 +124,7 @@ The repository is organized as follows:
 - `requirements.txt`: package dependencies;
 
     
-## Requirements
+## 📦 Requirements
 ```
 python           3.7
 scikit-learn     1.0.2
@@ -131,12 +136,12 @@ torch            1.12.1+cu113
 dgl-cu113        0.8.1
 ```
 
-### Contributors :
+### 🤝 Contributors :
 <a href="https://github.com/AI4Risk/antifraud/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AI4Risk/antifraud" />
 </a>
 
-### Citing
+### 📚 Citing
 
 If you find *Antifraud* is useful for your research, please consider citing the following papers:
     
