@@ -7,12 +7,15 @@
 </p>
 A Financial Fraud Detection Framework.
 <p align="center">
-  <a href="#usage">🚀 Usage</a> ·
-  <a href="#data-description">🗃️ Data Description</a> ·
-  <a href="#test-result">📊 Test Result</a> ·
-  <a href="#repo-structure">🗂️ Repo Structure</a> ·
-  <a href="#requirements">📦 Requirements</a> ·
-  <a href="#citing">📚 Citing</a>
+  <a href="#antifraud-usage">🚀 Usage</a> ·
+  <a href="#antifraud-data-processing">📥 Data processing</a> ·
+  <a href="#antifraud-training">🧠 Training &amp; Evaluation</a> ·
+  <a href="#antifraud-data-description">🗃️ Data Description</a> ·
+  <a href="#antifraud-test-result">📊 Test Result</a> ·
+  <a href="#antifraud-repo-structure">🗂️ Repo Structure</a> ·
+  <a href="#antifraud-requirements">📦 Requirements</a> ·
+  <a href="#antifraud-contributors">🤝 Contributors</a> ·
+  <a href="#antifraud-citing">📚 Citing</a>
 </p>
 
 Source codes implementation of papers:
